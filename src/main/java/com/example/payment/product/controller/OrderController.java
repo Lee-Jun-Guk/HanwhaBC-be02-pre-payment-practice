@@ -21,6 +21,11 @@ import java.util.Map;
 @RequestMapping("/order")
 public class OrderController {
 
+    /**
+     * hello
+     * @return
+     * @throws IOException
+     */
     public String getToken() throws IOException {
         HttpsURLConnection conn = null;
 
